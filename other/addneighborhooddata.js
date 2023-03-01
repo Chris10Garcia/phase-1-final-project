@@ -10,9 +10,10 @@ const fs = require('fs');
 // .on('end', () => console.log('end'))
 // create function to read nystate json file
 
-const result = []
 
+// use SYNCO version
 function readFile (){
+    const result = []
     fs.readFile('./other/nycneighborhood.csv', (err, data) => {
         if (err) throw err;
 
@@ -22,11 +23,11 @@ function readFile (){
                 })
         })
     })
-
+    handleCSV(result)
 }
 
-function handleCSV(row){
-    result.push(row)
+function handleCSV(){
+    console.log(result)
 }
 
 
