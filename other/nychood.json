@@ -1,0 +1,892 @@
+[
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Central Bronx",
+     "ZipCode": 10453
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Central Bronx",
+     "ZipCode": 10457
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Central Bronx",
+     "ZipCode": 10460
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Bronx Park and Fordham",
+     "ZipCode": 10458
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Bronx Park and Fordham",
+     "ZipCode": 10467
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Bronx Park and Fordham",
+     "ZipCode": 10468
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "High Bridge and Morrisania",
+     "ZipCode": 10451
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "High Bridge and Morrisania",
+     "ZipCode": 10452
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "High Bridge and Morrisania",
+     "ZipCode": 10456
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Hunts Point and Mott Haven",
+     "ZipCode": 10454
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Hunts Point and Mott Haven",
+     "ZipCode": 10455
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Hunts Point and Mott Haven",
+     "ZipCode": 10459
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Hunts Point and Mott Haven",
+     "ZipCode": 10474
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Kingsbridge and Riverdale",
+     "ZipCode": 10463
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Kingsbridge and Riverdale",
+     "ZipCode": 10471
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Northeast Bronx",
+     "ZipCode": 10466
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Northeast Bronx",
+     "ZipCode": 10469
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Northeast Bronx",
+     "ZipCode": 10470
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Northeast Bronx",
+     "ZipCode": 10475
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10461
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10462
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10464
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10465
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10472
+   },
+   {
+     "Borough": "Bronx",
+     "Neighborhood": "Southeast Bronx",
+     "ZipCode": 10473
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Central Brooklyn",
+     "ZipCode": 11212
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Central Brooklyn",
+     "ZipCode": 11213
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Central Brooklyn",
+     "ZipCode": 11216
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Central Brooklyn",
+     "ZipCode": 11233
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Central Brooklyn",
+     "ZipCode": 11238
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southwest Brooklyn",
+     "ZipCode": 11209
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southwest Brooklyn",
+     "ZipCode": 11214
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southwest Brooklyn",
+     "ZipCode": 11228
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Borough Park",
+     "ZipCode": 11204
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Borough Park",
+     "ZipCode": 11218
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Borough Park",
+     "ZipCode": 11219
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Borough Park",
+     "ZipCode": 11230
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Canarsie and Flatlands",
+     "ZipCode": 11234
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Canarsie and Flatlands",
+     "ZipCode": 11236
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Canarsie and Flatlands",
+     "ZipCode": 11239
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southern Brooklyn",
+     "ZipCode": 11223
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southern Brooklyn",
+     "ZipCode": 11224
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southern Brooklyn",
+     "ZipCode": 11229
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Southern Brooklyn",
+     "ZipCode": 11235
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Northwest Brooklyn",
+     "ZipCode": 11201
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Northwest Brooklyn",
+     "ZipCode": 11205
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Northwest Brooklyn",
+     "ZipCode": 11215
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Northwest Brooklyn",
+     "ZipCode": 11217
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Northwest Brooklyn",
+     "ZipCode": 11231
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Flatbush",
+     "ZipCode": 11203
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Flatbush",
+     "ZipCode": 11210
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Flatbush",
+     "ZipCode": 11225
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Flatbush",
+     "ZipCode": 11226
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "East New York and New Lots",
+     "ZipCode": 11207
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "East New York and New Lots",
+     "ZipCode": 11208
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Greenpoint",
+     "ZipCode": 11211
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Greenpoint",
+     "ZipCode": 11222
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Sunset Park",
+     "ZipCode": 11220
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Sunset Park",
+     "ZipCode": 11232
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Bushwick and Williamsburg",
+     "ZipCode": 11206
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Bushwick and Williamsburg",
+     "ZipCode": 11221
+   },
+   {
+     "Borough": "Brooklyn",
+     "Neighborhood": "Bushwick and Williamsburg",
+     "ZipCode": 11237
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Central Harlem",
+     "ZipCode": 10026
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Central Harlem",
+     "ZipCode": 10027
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Central Harlem",
+     "ZipCode": 10030
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Central Harlem",
+     "ZipCode": 10037
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Central Harlem",
+     "ZipCode": 10039
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10001
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10011
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10018
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10019
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10020
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Chelsea and Clinton",
+     "ZipCode": 10036
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "East Harlem",
+     "ZipCode": 10029
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "East Harlem",
+     "ZipCode": 10035
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Gramercy Park and Murray Hill",
+     "ZipCode": 10010
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Gramercy Park and Murray Hill",
+     "ZipCode": 10016
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Gramercy Park and Murray Hill",
+     "ZipCode": 10017
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Gramercy Park and Murray Hill",
+     "ZipCode": 10022
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Greenwich Village and Soho",
+     "ZipCode": 10012
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Greenwich Village and Soho",
+     "ZipCode": 10013
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Greenwich Village and Soho",
+     "ZipCode": 10014
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10004
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10005
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10006
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10007
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10038
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower Manhattan",
+     "ZipCode": 10280
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower East Side",
+     "ZipCode": 10002
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower East Side",
+     "ZipCode": 10003
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Lower East Side",
+     "ZipCode": 10009
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10021
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10028
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10044
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10065
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10075
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper East Side",
+     "ZipCode": 10128
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper West Side",
+     "ZipCode": 10023
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper West Side",
+     "ZipCode": 10024
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Upper West Side",
+     "ZipCode": 10025
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Inwood and Washington Heights",
+     "ZipCode": 10031
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Inwood and Washington Heights",
+     "ZipCode": 10032
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Inwood and Washington Heights",
+     "ZipCode": 10033
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Inwood and Washington Heights",
+     "ZipCode": 10034
+   },
+   {
+     "Borough": "Manhattan",
+     "Neighborhood": "Inwood and Washington Heights",
+     "ZipCode": 10040
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northeast Queens",
+     "ZipCode": 11361
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northeast Queens",
+     "ZipCode": 11362
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northeast Queens",
+     "ZipCode": 11363
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northeast Queens",
+     "ZipCode": 11364
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11354
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11355
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11356
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11357
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11358
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11359
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "North Queens",
+     "ZipCode": 11360
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Central Queens",
+     "ZipCode": 11365
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Central Queens",
+     "ZipCode": 11366
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Central Queens",
+     "ZipCode": 11367
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11412
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11423
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11432
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11433
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11434
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11435
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Jamaica",
+     "ZipCode": 11436
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11101
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11102
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11103
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11104
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11105
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Northwest Queens",
+     "ZipCode": 11106
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Central Queens",
+     "ZipCode": 11374
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Central Queens",
+     "ZipCode": 11375
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Central Queens",
+     "ZipCode": 11379
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Central Queens",
+     "ZipCode": 11385
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11691
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11692
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11693
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11694
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11695
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Rockaways",
+     "ZipCode": 11697
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11004
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11005
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11411
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11413
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11422
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11426
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11427
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11428
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southeast Queens",
+     "ZipCode": 11429
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11414
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11415
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11416
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11417
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11418
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11419
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11420
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "Southwest Queens",
+     "ZipCode": 11421
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11368
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11369
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11370
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11372
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11373
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11377
+   },
+   {
+     "Borough": "Queens",
+     "Neighborhood": "West Queens",
+     "ZipCode": 11378
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Port Richmond",
+     "ZipCode": 10302
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Port Richmond",
+     "ZipCode": 10303
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Port Richmond",
+     "ZipCode": 10310
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "South Shore",
+     "ZipCode": 10306
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "South Shore",
+     "ZipCode": 10307
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "South Shore",
+     "ZipCode": 10308
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "South Shore",
+     "ZipCode": 10309
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "South Shore",
+     "ZipCode": 10312
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Stapleton and St. George",
+     "ZipCode": 10301
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Stapleton and St. George",
+     "ZipCode": 10304
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Stapleton and St. George",
+     "ZipCode": 10305
+   },
+   {
+     "Borough": "Staten Island",
+     "Neighborhood": "Mid-Island",
+     "ZipCode": 10314
+   }
+  ]
