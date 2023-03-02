@@ -5,6 +5,9 @@ id, name, street, city, state, postal_code, phone, website_url, Borough, Neighbo
 */
 
 
+// maybe add function to build likes? / area where breweries are liked?
+
+
 // builds brewery detail HTML elements
 function buildDetail(brewObj){
     const divBrewDetail = document.getElementById('brewDetail')
@@ -39,11 +42,14 @@ function buildList(brewArray){
 }
 
 
+//
+
 // fetches list of breweries while dealing with filters / search parameters
 function getDataForList(filter = ''){
     
     // proceses filter and add's the correct tail end for fetch URL
     switch (filter){
+        // values are from radio button
         case "all_boroughs":
         case "Bronx":
         case "Brooklyn":
@@ -52,9 +58,11 @@ function getDataForList(filter = ''){
             filter = "?Borough=" + filter
             break;
 
+        // for intital load / all data
         case "":
             break
 
+        // for searching
         default:
             filter = "?q=" + filter
     }
@@ -71,6 +79,8 @@ function getDataForBrewery(brewId){
         .then(response => response.json())
         .then(data => buildDetail(data))
 }
+
+// patch request to handle likes / unlikes
 
 
 /*
@@ -104,3 +114,4 @@ function addListenerToFormSearch(){
     })
 }
 
+// event listener to handle likes / unlikes
