@@ -11,18 +11,19 @@ function buildDetail(brewObj){
     const divBrewDetail = document.getElementById('brewDetail')
 
     divBrewDetail.innerHTML = 
-        `<h4>${brewObj.name}</h5>
+        `<h4>${brewObj.name}</h4>
         <p>Neighborhood of ${brewObj.Neighborhood}</p>
         <p>Within the borough of ${brewObj.Borough}</p>
         <p>${brewObj.street}</p>
         <p>${brewObj.city}, ${brewObj.state} ${brewObj.postal_code}</p>
-        <p>Phone Number: ${brewObj.phone} and website: ${brewObj.website_url}
+        <p>Phone Number: ${brewObj.phone} and website: <a href = ${brewObj.website_url}> ${brewObj.website_url}</p>
         `   
 }
 
 
 function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')
+    divBrewList.innerHTML = ''
 
     const ul = document.createElement('ul')
 
@@ -30,7 +31,7 @@ function buildList(brewArray){
         const li = document.createElement('li')
         li.innerText = brewObj.name
         li.id = brewObj.id
-        li.addEventListener('click', (e) => getData(e.target.id))
+        li.addEventListener('click', (e) => getDataForBrewery(e.target.id))
         ul.append(li)
     });
 
@@ -40,20 +41,40 @@ function buildList(brewArray){
 
 
 
-function getData(brewId = ''){
-
-    if (brewId){
-        fetch(urlJSON + brewId)
-        .then(response => response.json())
-        .then(data => buildDetail(data))
-    } else {
-        fetch(urlJSON)
-        .then(response => response.json())
-        .then(data => buildList(data))
+function getDataForList(filter = ''){
+    
+    // proceses filter and add's the correct tail end for fetch URL
+    switch (filter){
+        case "all_boroughs":
+        case "Bronx":
+        case "Brooklyn":
+        case "Manhattan":
+        case "Staten Island":
+            filter = "?Borough=" + filter
+            break;
+        default:
+            filter = "?q=" + filter
     }
 
+    fetch(urlJSON + filter)
+    .then(response => response.json())
+    .then(data => buildList(data))
 }
 
+function getDataForBrewery(brewId){
+    fetch(urlJSON + brewId)
+    .then(response => response.json())
+    .then(data => buildDetail(data))
+}
+
+function addLogicToRadioBttn(){
+    const filterBttn = document.getElementById('filterButtons')
+    filterBttn.addEventListener('change', (e)=> getDataForList(e.target.value))
+}
+
+
 document.addEventListener('DOMContentLoaded', ()=>{
-    getData()
+    getDataForList()
+    addLogicToRadioBttn()
 })
+

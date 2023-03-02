@@ -8,26 +8,41 @@
     </head>
     <body>
         <h1>NYC Breweries</h1>
+        <p> Filter by Boroughs</p>
+        <div id="filterButtons">
+
+            <!-- <label><input type ="checkbox">All Boroughs</label> -->
+            <input type ="radio" value="" checked="true" name = "filter">
+            <label for = "all_bouroughs">All Boroughs</label>
+
+            <input type ="radio" value="Bronx" name = "filter">
+            <label for = "Bronx">Bronx</label>
+
+            <input type ="radio" value="Brooklyn" name = "filter">
+            <label for = "Brooklyn">Brooklyn</label>
+
+            <input type ="radio" value="Manhattan" name = "filter">
+            <label for = "Manhattan">Manhattan</label> 
+
+            <input type ="radio" value="Queens" name = "filter">
+            <label for = "Queenss">Queens</label>
+
+            <input type ="radio" value="Staten Island" name = "filter">
+            <label for = "Staten Island">Staten Island</label>
+
+        </div>
+
+        <p>Filter by Searching</p>
         <div>
-            <form>
-                <!-- <label><input type ="checkbox">All Boroughs</label> -->
-                <input type ="checkbox" value="0" checked="true">
-                    <label>All Boroughs</label>
-                <button>Bronx</button>
-                <button>Brookyln</button>
-                <button>Manhattan</button>
-                <button>Queens</button>
-                <button>Staten Island</button>
-            </form>
-        </div>
 
+        </div>
         <h3>Selected Brewery:</h3>
-        <div id="brewDetail">
-            (none selected)
-        </div>
+            <div id="brewDetail">
+                (none selected)
+            </div>
 
-        <div id="brewList">
-            <h3>Breweries List</h3>
-        </div>
+        <h3>Breweries List</h3>
+            <div id="brewList">   
+            </div>
     </body>
 </html>
