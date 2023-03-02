@@ -1,4 +1,4 @@
-[
+{ "nyc_breweries" : [
     {
       "id": "alewife-brewing-company-long-island-city",
       "name": "Alewife Brewing Company",
@@ -1260,3 +1260,4 @@
       "Neighborhood": "Northwest Brooklyn"
     }
   ]
+}
