@@ -7,6 +7,7 @@ website_url, updated_at, created_at, Borough, Neighborhood
 */
 
 
+
 function buildDetail(brewObj){
     const divBrewDetail = document.getElementById('brewDetail')
 
@@ -39,8 +40,6 @@ function buildList(brewArray){
 }
 
 
-
-
 function getDataForList(filter = ''){
     
     // proceses filter and add's the correct tail end for fetch URL
@@ -52,6 +51,8 @@ function getDataForList(filter = ''){
         case "Staten Island":
             filter = "?Borough=" + filter
             break;
+        case "":
+            break
         default:
             filter = "?q=" + filter
     }
@@ -61,20 +62,29 @@ function getDataForList(filter = ''){
     .then(data => buildList(data))
 }
 
+
 function getDataForBrewery(brewId){
     fetch(urlJSON + brewId)
     .then(response => response.json())
     .then(data => buildDetail(data))
 }
 
-function addLogicToRadioBttn(){
+function addListenerToRadioBttn(){
     const filterBttn = document.getElementById('filterButtons')
-    filterBttn.addEventListener('change', (e)=> getDataForList(e.target.value))
+    filterBttn.addEventListener('change', e=> getDataForList(e.target.value))
 }
 
+function addListenerToFormSearch(){
+    const form = document.getElementById('formSearch')
+    form.addEventListener('submit', e =>{
+        e.preventDefault()
+        getDataForList(e.target.search.value)
+    })
+}
 
 document.addEventListener('DOMContentLoaded', ()=>{
     getDataForList()
-    addLogicToRadioBttn()
+    addListenerToRadioBttn()
+    addListenerToFormSearch()
 })
 
