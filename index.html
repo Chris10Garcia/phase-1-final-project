@@ -2,27 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>NYC Breweries List</title>
-        <link rel = "stylesheet" href = "/src/stylesheet.css">
-        <script type = "text/javascript" src = "/src/index.js"></script>
+        <title>NYC Breweries Database List</title>
+        <link rel = "stylesheet" href = "src/stylesheet.css">
+        <script type = "text/javascript" src = "src/index.js"></script>
     </head>
     <body>
         <h1>NYC Breweries</h1>
         <div>
-            <button>All Boroughs</button>
-            <button>Bronx</button>
-            <button>Brookyln</button>
-            <button>Manhattan</button>
-            <button>Queens</button>
-            <button>Staten Island</button>
+            <form>
+                <!-- <label><input type ="checkbox">All Boroughs</label> -->
+                <input type ="checkbox" value="0" checked="true">
+                    <label>All Boroughs</label>
+                <button>Bronx</button>
+                <button>Brookyln</button>
+                <button>Manhattan</button>
+                <button>Queens</button>
+                <button>Staten Island</button>
+            </form>
         </div>
 
-        <div>
-            <h2>Breweries List</h2>
+        <h3>Selected Brewery:</h3>
+        <div id="brewDetail">
+            (none selected)
         </div>
 
-        <div id="brewlist">
-            
+        <div id="brewList">
+            <h3>Breweries List</h3>
         </div>
     </body>
 </html>
