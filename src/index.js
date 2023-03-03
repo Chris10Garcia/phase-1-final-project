@@ -49,8 +49,7 @@ function getDataForList(filter = ''){
     
     // proceses filter and add's the correct tail end for fetch URL
     switch (filter){
-        // values are from radio button
-        case "all_boroughs":
+        // values are from radio button elements
         case "Bronx":
         case "Brooklyn":
         case "Manhattan":
@@ -58,7 +57,7 @@ function getDataForList(filter = ''){
             filter = "?Borough=" + filter
             break;
 
-        // for intital load / all data
+        // for intital load / all boroughs
         case "":
             break
 
