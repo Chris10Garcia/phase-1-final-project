@@ -23,22 +23,50 @@ function buildDetail(brewObj){
 }
 
 
+// updated list structure
+/* each list item is 
+div
+p Name , Neighborhood p
+button Click to Expand
+
+
+*/
 // builds brewery list HTML elements
 function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')
     divBrewList.innerHTML = ''
 
-    const ul = document.createElement('ul')
+    // const ul = document.createElement('ul')
+    
 
     brewArray.forEach(brewObj => {
-        const li = document.createElement('li')
-        li.innerText = brewObj.name
-        li.id = brewObj.id
-        addListenerToListBttn.call(li)
-        ul.append(li)
+        // const li = document.createElement('li')
+        // li.innerText = brewObj.name
+        // li.id = brewObj.id
+
+        // addListenerToListBttn.call(li)
+
+        // ul.append(li)
+
+        const div = document.createElement('div')
+        div.className = "brewery"
+
+        const p = document.createElement('p')
+        p.innerText = brewObj.name
+        
+        const bttn = document.createElement('button')
+        bttn.innerText = "Additional Details"
+        bttn.id = brewObj.id
+
+        addListenerToListBttn.call(bttn)
+
+        div.append(p, bttn)
+
+        divBrewList.append(div)
+
     });
 
-    divBrewList.append(ul)
+    // divBrewList.append(ul)
 }
 
 

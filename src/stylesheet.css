@@ -1,0 +1,22 @@
+.brewery{
+    display: table;
+    width: 80%;
+    margin: 0.25em;
+}
+
+
+.brewery>p {
+    display: table-cell;
+    text-align: left;
+    padding-left: 3em
+}
+
+.brewery>button {
+    /* display: inline-flex */
+    
+    /* display: inline-flex; */
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: grey;
+}
