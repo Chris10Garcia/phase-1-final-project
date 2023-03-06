@@ -13,6 +13,9 @@ Fetching over multiple pages
 Using Fetch within Node.js
 - https://codemag.com/article/2003031
 
+Opening a file synconously
+- https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/
+
 Source Material
 Image Source
 - https://andrewprokos.com/photo/black-and-white-panoramic-skyline-nyc-at-night-2745/

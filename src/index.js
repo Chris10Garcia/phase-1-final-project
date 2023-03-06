@@ -6,7 +6,6 @@ id, name, street, city, state, postal_code, phone, website_url, Borough, Neighbo
 */
 
 
-// maybe add function to build likes? / area where breweries are liked?
 
 /*
 ****************************************
@@ -51,9 +50,7 @@ function buildList(brewArray){
         addListenerToListBttn.call(bttn)
 
         div.append(p, bttn)
-
         divBrewList.append(div)
-
     });
 }
 
@@ -82,7 +79,7 @@ function getDataForList(filter = ''){
         case "":
             break
 
-        // for searching
+        // for searching key terms 
         default:
             filter = "?q=" + filter
     }
@@ -108,7 +105,7 @@ function getDataForBrewery(brewId){
 */
 
 
-// adds functionality to each brewery name and passes id to acquire specific brewery details
+// adds functionality to button and passes id to acquire specific brewery details when activated
 function addListenerToListBttn(){
     this.addEventListener('click', e => getDataForBrewery(e.target.id))
 }
@@ -128,9 +125,10 @@ function addListenerToFormSearch(){
     })
 }
 
-// waits until page loads to run following js code depenedant on loaded page
+// waits until page loads to run following js code
 document.addEventListener('DOMContentLoaded', ()=>{
     getDataForList()
     addListenerToRadioBttn()
     addListenerToFormSearch()
 })
+
