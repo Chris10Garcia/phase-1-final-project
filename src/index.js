@@ -1,14 +1,21 @@
+// url for API
 urlJSON = 'http://localhost:3000/nyc_breweries/'
 
-/* data structure
+/* attributes from data structure used
 id, name, street, city, state, postal_code, phone, website_url, Borough, Neighborhood
 */
 
 
 // maybe add function to build likes? / area where breweries are liked?
 
+/*
+****************************************
+*   Functions used for building page   *
+****************************************
+*/
 
-// builds brewery detail HTML elements
+
+// builds brewery details
 function buildDetail(brewObj){
     const divBrewDetail = document.getElementById('brewDetail')
 
@@ -24,7 +31,7 @@ function buildDetail(brewObj){
 }
 
 
-// builds brewery list HTML elements
+// builds brewery list
 function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')
     divBrewList.innerHTML = ''
@@ -51,7 +58,12 @@ function buildList(brewArray){
 }
 
 
-//
+
+/*
+***************************************
+*   Functions used for data fetches   *
+***************************************
+*/
 
 // fetches list of breweries while dealing with filters / search parameters
 function getDataForList(filter = ''){
@@ -88,19 +100,13 @@ function getDataForBrewery(brewId){
         .then(data => buildDetail(data))
 }
 
-// patch request to handle likes / unlikes
-
 
 /*
-    all event listeners required for this app are written below
+********************************************************************
+*    all event listeners required for this app are written below   *
+********************************************************************
 */
 
-// waits until page loads to run following js code depenedant on loaded page
-document.addEventListener('DOMContentLoaded', ()=>{
-    getDataForList()
-    addListenerToRadioBttn()
-    addListenerToFormSearch()
-})
 
 // adds functionality to each brewery name and passes id to acquire specific brewery details
 function addListenerToListBttn(){
@@ -122,4 +128,9 @@ function addListenerToFormSearch(){
     })
 }
 
-// event listener to handle likes / unlikes
+// waits until page loads to run following js code depenedant on loaded page
+document.addEventListener('DOMContentLoaded', ()=>{
+    getDataForList()
+    addListenerToRadioBttn()
+    addListenerToFormSearch()
+})
