@@ -35,6 +35,7 @@ function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')
     divBrewList.innerHTML = ''
     
+    // ****** Required project array iteration below ******
     brewArray.forEach(brewObj => {
 
         const div = document.createElement('div')
