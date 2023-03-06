@@ -13,24 +13,17 @@ function buildDetail(brewObj){
     const divBrewDetail = document.getElementById('brewDetail')
 
     divBrewDetail.innerHTML = 
-        `<h4>${brewObj.name}</h4>
-        <p>Neighborhood of ${brewObj.Neighborhood}</p>
-        <p>Within the borough of ${brewObj.Borough}</p>
-        <p>${brewObj.street}</p>
-        <p>${brewObj.city}, ${brewObj.state} ${brewObj.postal_code}</p>
-        <p>Phone Number: ${brewObj.phone} and website: <a href = ${brewObj.website_url}> ${brewObj.website_url}</p>
+        `<h4><u>${brewObj.name}</u></h4>
+        <br>Neighborhood: ${brewObj.Neighborhood}
+        <p>Borough: ${brewObj.Borough}</p>
+        <br>${brewObj.street}
+        <br>${brewObj.city}, ${brewObj.state} ${brewObj.postal_code}
+        <br>Phone Number: ${brewObj.phone}
+        <br>Website: <a href = ${brewObj.website_url}> ${brewObj.website_url}
         `   
 }
 
 
-// updated list structure
-/* each list item is 
-div
-p Name , Neighborhood p
-button Click to Expand
-
-
-*/
 // builds brewery list HTML elements
 function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')

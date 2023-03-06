@@ -12,3 +12,7 @@ Fetching over multiple pages
 
 Using Fetch within Node.js
 - https://codemag.com/article/2003031
+
+Source Material
+Image Source
+- https://andrewprokos.com/photo/black-and-white-panoramic-skyline-nyc-at-night-2745/
