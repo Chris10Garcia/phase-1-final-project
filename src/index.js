@@ -28,18 +28,8 @@ function buildDetail(brewObj){
 function buildList(brewArray){
     const divBrewList = document.getElementById('brewList')
     divBrewList.innerHTML = ''
-
-    // const ul = document.createElement('ul')
     
-
     brewArray.forEach(brewObj => {
-        // const li = document.createElement('li')
-        // li.innerText = brewObj.name
-        // li.id = brewObj.id
-
-        // addListenerToListBttn.call(li)
-
-        // ul.append(li)
 
         const div = document.createElement('div')
         div.className = "brewery"
@@ -58,8 +48,6 @@ function buildList(brewArray){
         divBrewList.append(div)
 
     });
-
-    // divBrewList.append(ul)
 }
 
 
