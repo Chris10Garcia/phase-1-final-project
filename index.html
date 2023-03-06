@@ -8,38 +8,41 @@
     </head>
     <body>
         <h1>NYC Breweries</h1>
-        <p> Filter by boroughs</p>
-        <div id="filterButtons">
+        <div class="header">
+            <p> Filter by boroughs</p>
+            <div id="filterButtons">
 
-            <!-- <label><input type ="checkbox">All Boroughs</label> -->
-            <input type ="radio" value="" checked="true" name = "filter">
-            <label for = "all_bouroughs">All Boroughs</label>
+                <!-- <label><input type ="checkbox">All Boroughs</label> -->
+                <input type ="radio" value="" checked="true" name = "filter">
+                <label for = "all_bouroughs">All Boroughs</label>
 
-            <input type ="radio" value="Bronx" name = "filter">
-            <label for = "Bronx">Bronx</label>
+                <input type ="radio" value="Bronx" name = "filter">
+                <label for = "Bronx">Bronx</label>
 
-            <input type ="radio" value="Brooklyn" name = "filter">
-            <label for = "Brooklyn">Brooklyn</label>
+                <input type ="radio" value="Brooklyn" name = "filter">
+                <label for = "Brooklyn">Brooklyn</label>
 
-            <input type ="radio" value="Manhattan" name = "filter">
-            <label for = "Manhattan">Manhattan</label> 
+                <input type ="radio" value="Manhattan" name = "filter">
+                <label for = "Manhattan">Manhattan</label> 
 
-            <input type ="radio" value="Queens" name = "filter">
-            <label for = "Queenss">Queens</label>
+                <input type ="radio" value="Queens" name = "filter">
+                <label for = "Queenss">Queens</label>
 
-            <input type ="radio" value="Staten Island" name = "filter">
-            <label for = "Staten Island">Staten Island</label>
+                <input type ="radio" value="Staten Island" name = "filter">
+                <label for = "Staten Island">Staten Island</label>
 
+            </div>
         </div>
+        <div class="header">
+            <p>Filter by searching</p>
+            <div>
+                <form id="formSearch">
+                    <input type="text" name="search" placeholder="search keywords" value="">
+                    <input type="submit" value="Search"/>
+                </form>
 
-        <p>Filter by searching</p>
-        <div>
-            <form id="formSearch">
-                <input type="text" name="search" placeholder="search keywords" value="">
-                <input type="submit" value="Search"/>
-            </form>
-
-        </div>
+            </div>
+        </div>  
         <h3>Selected Brewery:</h3>
             <div id="brewDetail">
                 (none selected)

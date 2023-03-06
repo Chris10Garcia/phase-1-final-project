@@ -55,7 +55,7 @@ function buildList(brewArray){
         p.innerText = brewObj.name
         
         const bttn = document.createElement('button')
-        bttn.innerText = "Additional Details"
+        bttn.innerText = "Click here for more details"
         bttn.id = brewObj.id
 
         addListenerToListBttn.call(bttn)

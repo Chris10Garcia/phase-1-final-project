@@ -1,22 +1,50 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+
 .brewery{
-    display: table;
+
+    display: block;
     width: 80%;
-    margin: 0.25em;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    height: 25px;
+
 }
 
 
 .brewery>p {
-    display: table-cell;
+    display: inline;
     text-align: left;
-    padding-left: 3em
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 90%;
+    margin-bottom: 90%;
+
 }
 
 .brewery>button {
     /* display: inline-flex */
     
     /* display: inline-flex; */
-    text-align: right;
-    vertical-align: middle;
-    display: table-cell;
-    background-color: grey;
+    float: right;
+    width: 20%;
+    margin-right: 0;
+    /* vertical-align: middle; */
+    background-color: lightgrey;
+    margin-right: 10px;
 }
