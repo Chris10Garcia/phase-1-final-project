@@ -1,5 +1,13 @@
-
 # Phase 1 Final Project: New York City Brewery Database Website
+
+
+## Table of Content
+
+1. [Overview](#overview)
+2. [Get Started](#get-started)
+3. [Acquiring the Data](#acquiring-the-data)
+4. [Source and Credits](#source-and-credits)
+
 
 ## Overview
 
@@ -20,20 +28,18 @@ Using [Open Brewery DB's](https://www.openbrewerydb.org/) API, I created a webpa
 
 ## Acquiring the Data
 
-- Open brewery DB is a public API that is a database of all the breweries in the US
-- To filter this massive dataset down for only NYC breweries, I:
+Open brewery DB is a public API that is a database of all the breweries in the US. To filter this massive dataset down for only NYC breweries, I:
 1. wrote two script files that acquires the JSON data for NY state and then to build a new file for breweries located within NYC by comparing zip codes
 2. Found a CSV file that contains NYC's zip code and the borough plus neighorhood it corresponds to
 3. Converted the [CSV file to JSON](https://www.convertcsv.com/csv-to-json.htm) so that it is easier to work with
-4. saved the file as db.json
-- This new file is then hosted on a json-server
-- To see these script files, please navigate within the folder "other"
+4. Saved the file as db.json. This new file is then hosted on a json-server
+
+To see these script files, please navigate within the folder "other"
 
 
 ## Source and Credits
 
 API used for this project
-
 - [Open Brewery DB](https://www.openbrewerydb.org/documentation)
 
 
@@ -53,4 +59,9 @@ StackOverFlow / Guides / Assistance to topics not covered within phase 1:
 
 - [Opening a file synconously](https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/)
 
+
+JSON related assistance 
+
 - [CSV file to JSON](https://www.convertcsv.com/csv-to-json.htm)
+
+- [JSON Beautifer](https://codebeautify.org/jsonviewer)
