@@ -1,53 +1,39 @@
 
-# Title
-
-- intro  (purpose of this repo)
+# Phase 1 Final Project: New York City Brewery Database Website
 
 ## Overview
 
-- Using Open DB brewery list, I created a page that shows all of the breweries located in NYC
-- The page first loads all of the breweries as list
+Using [Open Brewery DB's](https://www.openbrewerydb.org/) API, I created a webpage application that shows all of the breweries located in NYC. The way the site works is:
+- The page first loads all of the breweries as a list
 - When you click the button to expand, details of the brewery is shown. This includes address, phone, neighborhood, borough, and website.
 - You can filter the list by NYC boroughs or you can search by key terms
 
+
 ## Get Started
 
-- clone repo
-- install json-server (see here for instructions)
-- run json-server --watch db.json
-- enjoy finding out local breweries of NYC!
+- Clone the repo
+- Install [json-server](https://github.com/typicode/json-server)
+- Run `json-server --watch db.json`
+- Open index.html
+- Enjoy finding out local breweries of NYC!
 
 
 ## Acquiring the Data
 
-- Open DB brewery is a public API that is a database of all the breweries in the US
-- To filter this massive dataset down for only NYC, I wrote two script files to 
-1. acquire the JSON data for NY state 
-2. to build a new file for breweries located within NYC by comparing zip codes
+- Open brewery DB is a public API that is a database of all the breweries in the US
+- To filter this massive dataset down for only NYC breweries, I:
+1. wrote two script files to acquire the JSON data for NY state and to build a new file for breweries located within NYC by comparing zip codes
+2. Found a CSV file that contains NYC's zip code and the borough plus neighorhood it corresponds to
+3. Converted the [CSV file to JSON](https://www.convertcsv.com/csv-to-json.htm)
 - This new file is then hosted on a json-server
 - To see these script files, please navigate within the folder "other"
-
-## Meeting the Project requirements
-
-1. A HTML / CSS / JS frontend using a local db.json file with data from a public API. This file contains over 5 objects and over 3 attributes. The data is fetched and functions called asynchronously.
-
-2. Single HTML page with no redirects or reloads
-
-3. 4 distinct event listeners
-    - DOMContentLoaded
-    - submit
-    - change
-    - click
-
-4. 1 instance of array iteration (forEach)
-
-5. DRY code
 
 
 ## Source and Credits
 
-NYC zip code CSV
-- https://github.com/erikgregorywebb/nyc-housing/blob/master/Data/nyc-zip-codes.csv
+- [NYC zip code as a CSV file](https://github.com/erikgregorywebb/nyc-housing/blob/master/Data/nyc-zip-codes.csv)
+
+- [New York City Skyline Picture](https://andrewprokos.com/photo/black-and-white-panoramic-skyline-nyc-at-night-2745/)
 
 StackOverFlow / Random Help
 Saving a file 
@@ -61,7 +47,3 @@ Using Fetch within Node.js
 
 Opening a file synconously
 - https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/
-
-Source Material
-Image Source
-- https://andrewprokos.com/photo/black-and-white-panoramic-skyline-nyc-at-night-2745/
