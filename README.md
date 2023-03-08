@@ -1,6 +1,6 @@
 # Phase 1 Final Project: New York City Brewery Database Website
 
-![Preview of website functioning](https://github.com/Chris10Garcia/phase-1-final-project/blob/main/src/webpagevideo.mp4)
+![Preview of website functioning](https://github.com/Chris10Garcia/phase-1-final-project/blob/main/src/webpagevideo.gif)
 
 ## Table of Content
 
